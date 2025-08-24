@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascata, Especificidade e Combinadores</title>
+</head>
+
+<body>
+    <header>
+
+        <main>
+            <h1>Cascata, Especificidade e Combinadores</h1>
+
+            <section class="cascata">
+                <h2 id="cascata">Regra da Cascata:</h2>
+                <p>Cascading style sheets, ou Cascata, é uma regra que diz que no CSS sempre é lido de cima para baixo.
+                </p>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#displays">Ver os Displays</a><br>
+                        </li>
+                        <li>
+                            <a href="#propriedades">Ver propriedades</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+    </header>
+
+    <section class="especificidade">
+        <h2>Especificidade:</h2>
+        <p>Especificidade são os seletores específicos que possuem mais "pontos" do que os menos específicos (classe
+            específica).</p>
+
+        <h3>Diferença entre a Especificidade do seletor pela Tag, seletor pela Classe, e seletor pelo Id:</h3>
+        <ol>
+            <li>O Id é o mais específico deles, então ele prevalece sobre a classe. </li>
+            <li>Já a classe prevalece sobre o seletor pelo elemento (Tag).</li>
+            <li>É a Tag é a última deles.</li>
+        </ol>
+    </section>
+
+    <setion class="seletores">
+        <h2>Combinação de seletores:</h2>
+
+        <ul>
+            <li>Primeiro h1: Serve para colocar dois seletores em uma mesma linha.</li>
+            <li>Primeira > h1: Seleciona apenas o h1 que é "filho da Div".</li>
+            <li>Primeira h1 + h1: Estiliza somente os h1 que antes deles tenham um h1.</li>
+        </ul>
+
+        </main>
+    </setion>
+
+    <div>
+        <h2>Funcionamento das pseudo-classes:</h2>
+        <ol>
+            <li>First-child: Estliza apenas o primeiro elemento.</li>
+            <li>Last-child: Estliza o último elemento.</li>
+            <li>Nth-child: Seleciona o número do "filho" para estilizar.</li>
+            <li>Nth-of-type: Mesma função do Nth-child.</li>
+        </ol>
+        </section>
+    </div>
+
+    <div>
+        <h2 id="displays">Diferenças entre Display-inline e Display block:</h2>
+
+        <p>Display-inline = Só ocupa o espaço que precisa para existir (ficam um do lado do outro), não dá para
+            mexer na
+            altura e nem largura, e nos outros elementos, só dá para mudar na horizontal.</p>
+
+        <h3>propriedades</h3>
+
+        <ul>
+            <li>Padding;</li>
+            <li>Margin;</li>
+            <li>Border;</li>
+        </ul>
+
+        <p>Display block = Ocupa a largura na tela inteira, pode mexer em todos elementos.</p>
+        <h3>propriedades</h3>
+        <ul>
+            <li>Width;</li>
+            <li>Height;</li>
+            <li>Padding</li>
+            <li>Margin</li>
+            <li>Border</li>
+        </ul>
+
+        <p>Display-inline block: Um pouco dos dois.</p>
+    </div>
+
+
+    <div>
+        <h2 id="propriedades">Serventia das propriedades:</h2>
+        <p>Margin -> Colocar espaço entre os elmentos do HTML e CSS.</p>
+        <p>Padding -> Colocar espaço entre a borda e o conteúdo.</p>
+        <p>Boder -> Colocar espaço fora dos elementos.</p>
+
+    </div>
+
+    <div>
+        <h3>Shorthand:</h3>
+
+        <ol>
+            <li>Coloca uma quantidade de Pixels no Padding.</li>
+            <li>Adiciona outro Pixel, o primeiro fica em cima e embaixo, e esse segundo fica nos lados.</li>
+            <li>Adiciona outro Pixel, substituindo o que está embaixo.</li>
+            <li>Adiciona mais um Pixel, e esse substitui o que está no lado esquedo.</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Sufixos:</h3>
+        <ul>
+            <li>Block = Padding apenas em cima e embaixo;</li>
+            <li>Inline = Padding apenas nas laterias;</li>
+            <li>Top = Padding só em cima;</li>
+            <li>Bottom = Padding só embaixo;</li>
+            <li>Left = Padding na esquerda;</li>
+            <li>Right = Padding na direita;</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Ultilidade da propriedade Boz-sizing : border-box:</h2>
+        <p>Essa propriedade permite colocar a largura e a altura que você definiu.</p>
+    </div>
+
+</body>
+
+</html>
