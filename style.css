@@ -1,0 +1,78 @@
+body {
+
+    background-color:#b4e5ff ;
+    font-size: 20px;
+
+    width: 800px;
+    padding: 20px;
+    margin-inline: auto;
+    border-radius: 15px;
+   
+}
+
+h1 {
+    color: #6060f7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    
+
+}
+
+.cascata {
+    color:#2289f7 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.especificidade {
+
+    color: #6666d6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+  
+
+
+.seletores {
+
+    color:#1d57c2;
+    font-family: monospace;
+}
+ 
+
+
+div {
+
+    color: #4646b4;
+    font-size: 23px;
+    font-family: cursive;
+    
+}
+
+#displays{
+
+    color: #082891;
+
+    
+}
+
+#propriedades{
+
+    color: #303079;
+
+    
+}
+
+    
+
+#Boz-sizing{
+
+    color: #34349b;
+}
+
+::marker{
+
+    color: #082891;
+}
